@@ -1,0 +1,58 @@
+.main {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+}
+
+.tout {
+    color: #70baff;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-top: 50%;
+    margin-down: 50%;
+    border: 1px solid rgb(77, 190, 255);
+    /* Параметры границы */
+    /* Цвет фона */
+    padding: 20px;
+    width: 100%;
+    /* Поля вокруг текста */
+    transition: all 0.10ms ease;
+}
+
+.tout:hover {
+    background-color: #0084ff;
+}
+
+.upload {
+    div,
+    button {
+        width: 100%;
+    }
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+    background: #dfeefc;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: #70baff;
+}
+
+.menu {
+    margin-top: 20px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.dashboardContainer {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
